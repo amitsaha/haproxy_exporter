@@ -1,5 +1,10 @@
 # HAProxy Exporter for Prometheus
 
+NB: This is a fork of [prometheus/haproxy_exporter](https://github.com/prometheus/haproxy_exporter) 
+with [PR#38](https://github.com/prometheus/haproxy_exporter/pull/38) merged in and additional test 
+fixes needed by it.
+
+
 This is a simple server that periodically scrapes HAProxy stats and exports them via HTTP/JSON for Prometheus
 consumption.
 
